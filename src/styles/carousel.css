@@ -1,0 +1,78 @@
+.carousel-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; /* Prevents overflow from showing */
+}
+
+.carousel-button {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  padding: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.carousel-button.left {
+  left: 10px; /* Position left button */
+}
+
+.carousel-button.right {
+  right: 10px; /* Position right button */
+}
+
+.carousel-items {
+  display: flex; /* Display images in a row */
+  transition: transform 0.5s ease; /* Add sliding transition */
+  width: 100%; /* Full width of the container */
+}
+
+.carousel-item {
+  padding: 1rem;
+  flex: 0 0 calc(100% / 3); /* Default to 3 images in full width */
+  box-sizing: border-box; /* Ensure padding does not affect total width */
+  overflow: hidden; /* Prevent overflow from zooming */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.1); /* Scale up image on hover */
+}
+
+.carousel-item h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 840px) {
+  .carousel-item {
+    flex: 0 0 calc(100% / 2); /* 2 images when less than 840px */
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-item {
+    flex: 0 0 100%; /* 1 image when less than 400px */
+  }
+}
