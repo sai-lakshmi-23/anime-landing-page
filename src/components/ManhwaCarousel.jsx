@@ -2,16 +2,16 @@ import { useState, useEffect } from 'react';
 import '../styles/carousel.css';
 
 const manhwas = [
-  { title: 'Leviathan', image: '/images/pjimage.jpg' },
-  { title: 'Tower of God', image: '/images/tog.jpg' },
-  { title: 'Leveling Up with Gods', image: '/images/luwg.jpg' },
-  { title: 'Existence', image: '/images/existence.jpg' },
-  { title: 'The Breaker', image: '/images/breaker.jpg' },
-  { title: 'The First Hunter', image: '/images/hunter.jpg' },
-  { title: 'Noblesse', image: '/images/noblesse.jpg' },
-  { title: 'Ultimate Outcast', image: '/images/outcast.jpg' },
-  { title: 'Unholy Blood', image: '/images/blood.jpg' },
-  { title: 'Dice: The Cube that Changes Everything', image: '/images/dice.jpg' },
+  { title: 'Leviathan', image: './images/pjimage.jpg' },
+  { title: 'Tower of God', image: './images/tog.jpg' },
+  { title: 'Leveling Up with Gods', image: './images/luwg.jpg' },
+  { title: 'Existence', image: './images/existence.jpg' },
+  { title: 'The Breaker', image: './images/breaker.jpg' },
+  { title: 'The First Hunter', image: './images/hunter.jpg' },
+  { title: 'Noblesse', image: './images/noblesse.jpg' },
+  { title: 'Ultimate Outcast', image: './images/outcast.jpg' },
+  { title: 'Unholy Blood', image: './images/blood.jpg' },
+  { title: 'Dice: The Cube that Changes Everything', image: './images/dice.jpg' },
 ];
 
 const ManhwaCarousel = () => {

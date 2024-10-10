@@ -1,12 +1,12 @@
 import '../styles/characters.css';
 
 const characters = [
-  { name: 'Naruto Uzumaki', image: '/images/naruto.jpg', description: 'Goddess of Spring' },
-  { name: 'Luffy', image: '/images/luffy.jpg', description: 'God of the Underworld' },
-  { name: 'Ichigo Kurasaki', image: '/images/ichigo.jpg', description: 'God of the Underworld' },
-  { name: 'Saitama', image: '/images/saitama.jpg', description: 'God of the Underworld' },
-  { name: 'Sung Jin Woo', image: '/images/sung-jin-woo.jpg', description: 'God of the Underworld' },
-  { name: 'Goku', image: '/images/goku.jpg', description: 'God of the Underworld' },
+  { name: 'Naruto Uzumaki', image: './images/naruto.jpg', description: 'Goddess of Spring' },
+  { name: 'Luffy', image: './images/luffy.jpg', description: 'God of the Underworld' },
+  { name: 'Ichigo Kurasaki', image: './images/ichigo.jpg', description: 'God of the Underworld' },
+  { name: 'Saitama', image: './images/saitama.jpg', description: 'God of the Underworld' },
+  { name: 'Sung Jin Woo', image: './images/sung-jin-woo.jpg', description: 'God of the Underworld' },
+  { name: 'Goku', image: './images/goku.jpg', description: 'God of the Underworld' },
   // Add more characters as needed
 ];
 
